@@ -74,9 +74,9 @@ const fs = require('fs');
                                 console.log(i)
                                 await page.waitForSelector(".menu.container", {timeout: 0})
                                 console.log('Found old menu')
-                                await page.click('#menu-trigger')
+                                await page.click('Gledian Llatja')
                                 console.log('Click old menu')
-                                await page.click('.menu.container a[href^="/login"]')
+                                await page.click('Voto')
                                 console.log('clicked the login btn')
                                 await page.waitForSelector(".marginBottom20-32qID7", {timeout: 70000}) 
                                 await page.setBypassCSP(true);
