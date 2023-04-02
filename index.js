@@ -46,7 +46,7 @@ const fs = require('fs');
                     console.log(`Page error: ${err.toString()}`);
                 });
                 await page.setDefaultNavigationTimeout(0); 
-                const pageUrl = 'https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fscope%3Didentify%2520guilds%2520email%26redirect_uri%3Dhttps%253A%252F%252Ftop.gg%252Flogin%252Fcallback%26response_type%3Dcode%26client_id%3D264434993625956352';
+                const pageUrl = 'https://egnatianews.com/nese-zgjedhjet-do-te-zhvilloheshin-sot-ke-do-te-votoni-per-elbasanin/';
 
                     try {
                         await page.goto(pageUrl, {
